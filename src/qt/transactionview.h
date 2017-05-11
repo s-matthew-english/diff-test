@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2016 The Bitcoin Core developers
+// Copyright (c) 2011-2013 The Bitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -75,7 +75,6 @@ private:
     QFrame *dateRangeWidget;
     QDateTimeEdit *dateFrom;
     QDateTimeEdit *dateTo;
-    QAction *abandonAction;
 
     QWidget *createDateRangeWidget();
 
@@ -85,7 +84,7 @@ private:
 
     bool eventFilter(QObject *obj, QEvent *event);
 
-private Q_SLOTS:
+private slots:
     void contextualMenu(const QPoint &);
     void dateRangeChanged();
     void showDetails();
@@ -94,19 +93,16 @@ private Q_SLOTS:
     void copyLabel();
     void copyAmount();
     void copyTxID();
-    void copyTxHex();
-    void copyTxPlainText();
     void openThirdPartyTxUrl(QString url);
     void updateWatchOnlyColumn(bool fHaveWatchOnly);
-    void abandonTx();
 
-Q_SIGNALS:
+signals:
     void doubleClicked(const QModelIndex&);
 
     /**  Fired when a message should be reported to the user */
     void message(const QString &title, const QString &message, unsigned int style);
 
-public Q_SLOTS:
+public slots:
     void chooseDate(int idx);
     void chooseType(int idx);
     void chooseWatchonly(int idx);

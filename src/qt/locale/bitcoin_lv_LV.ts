@@ -1,4 +1,4 @@
-<TS language="lv_LV" version="2.1">
+<TS language="lv_LV" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -22,6 +22,10 @@
         <translation>&amp;Aizvērt</translation>
     </message>
     <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Kopēt adresi</translation>
+    </message>
+    <message>
         <source>Delete the currently selected address from the list</source>
         <translation>Izdzēst iezīmētās adreses no saraksta</translation>
     </message>
@@ -37,10 +41,62 @@
         <source>&amp;Delete</source>
         <translation>&amp;Dzēst</translation>
     </message>
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Izvēlies adresi uz kuru sūtīt dogecoins</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Izvēlies adresi ar kuru saņemt dogecoins</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>&amp;Izvēlēties</translation>
+    </message>
+    <message>
+        <source>Such sending addresses</source>
+        <translation>Sūtīšanas adreses</translation>
+    </message>
+    <message>
+        <source>Much receiving addresses</source>
+        <translation>Saņemšanas adreses</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Kopēt &amp;Nosaukumu</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Rediģēt</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>Eksportēt Adrešu Sarakstu</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fails ar komatu kā atdalītāju (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportēšana Neizdevās</translation>
+    </message>
     </context>
 <context>
     <name>AddressTableModel</name>
-    </context>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+</context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
@@ -59,10 +115,79 @@
         <source>Repeat new passphrase</source>
         <translation>Jaunā parole vēlreiz</translation>
     </message>
-    </context>
-<context>
-    <name>BanTableModel</name>
-    </context>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Šifrēt maciņu</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Lai veikto šo darbību, maciņš jāatslēdz ar paroli.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Atslēgt maciņu</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Šai darbībai maciņš jāatšifrē ar maciņa paroli.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Atšifrēt maciņu</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Mainīt paroli</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Apstiprināt maciņa šifrēšanu</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DOGECOINS&lt;/b&gt;!</source>
+        <translation>Brīdinājums: Ja tu nošifrē savu maciņu un pazaudē paroli, tu &lt;b&gt;PAZAUDĒSI VISAS SAVAS DOGECOINS&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Vai tu tiešām vēlies šifrēt savu maciņu?</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Brīdinājums: Caps Lock ir ieslēgts!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Maciņš nošifrēts</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Maciņa šifrēšana neizdevās</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Maciņa šifrēšana neizdevās programmas kļūdas dēļ. Jūsu maciņš netika šifrēts.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Ievadītās paroles nav vienādas.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Maciņu atšifrēt neizdevās</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Maciņa atšifrēšanai ievadītā parole nav pareiza.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Maciņu neizdevās atšifrēt</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Maciņa parole tika veiksmīgi nomainīta.</translation>
+    </message>
+</context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -126,11 +251,11 @@
         <translation>Mainīt &amp;Paroli...</translation>
     </message>
     <message>
-        <source>&amp;Sending addresses...</source>
+        <source>Such &amp;sending addresses...</source>
         <translation>&amp;Sūtīšanas adreses...</translation>
     </message>
     <message>
-        <source>&amp;Receiving addresses...</source>
+        <source>Much &amp;receiving addresses...</source>
         <translation>Saņemšanas &amp;adreses...</translation>
     </message>
     <message>
@@ -138,12 +263,20 @@
         <translation>Atvērt &amp;URI...</translation>
     </message>
     <message>
+        <source>Dogecoin Core client</source>
+        <translation>Dogecoin Core klients</translation>
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importē blokus no diska...</translation>
+    </message>
+    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Bloku reindeksēšana no diska...</translation>
     </message>
     <message>
-        <source>Send coins to a Bitcoin address</source>
-        <translation>Nosūtīt bitkoinus uz Bitcoin adresi</translation>
+        <source>Send coins to a Dogecoin address</source>
+        <translation>Nosūtīt bitkoinus uz Dogecoin adresi</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +299,8 @@
         <translation>&amp;Pārbaudīt ziņojumu...</translation>
     </message>
     <message>
-        <source>Bitcoin</source>
-        <translation>Bitcoin</translation>
+        <source>Dogecoin</source>
+        <translation>Dogecoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -182,6 +315,10 @@
         <translation>&amp;Saņemt</translation>
     </message>
     <message>
+        <source>Show information about Dogecoin Core</source>
+        <translation>Parādīt informāciju par Dogecoin Core</translation>
+    </message>
+    <message>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Rādīt / Paslēpt</translation>
     </message>
@@ -194,12 +331,12 @@
         <translation>Šifrēt privātās atslēgas kuras pieder tavam maciņam</translation>
     </message>
     <message>
-        <source>Sign messages with your Bitcoin addresses to prove you own them</source>
-        <translation>Parakstīt ziņojumus ar savām Bitcoin adresēm lai pierādītu ka tās pieder tev</translation>
+        <source>Sign messages with your Dogecoin addresses to prove you own them</source>
+        <translation>Parakstīt ziņojumus ar savām Dogecoin adresēm lai pierādītu ka tās pieder tev</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
-        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Bitcoin adresēm</translation>
+        <source>Verify messages to ensure they were signed with specified Dogecoin addresses</source>
+        <translation>Pārbaudīt ziņojumus lai pārliecinātos, ka tie tika parakstīti ar norādītajām Dogecoin adresēm</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -218,16 +355,32 @@
         <translation>Ciļņu rīkjosla</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and bitcoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un bitcoin: URIs)</translation>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
     </message>
     <message>
-        <source>Open a bitcoin: URI or payment request</source>
-        <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
+        <source>Request payments (generates QR codes and dogecoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un dogecoin: URIs)</translation>
+    </message>
+    <message>
+        <source>&amp;About Dogecoin Core</source>
+        <translation>Par &amp;Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>Open a dogecoin: URI or payment request</source>
+        <translation>Atvērt dogecoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandrindas iespējas</translation>
+    </message>
+    <message>
+        <source>No block source available...</source>
+        <translation>Nav pieejams neviens bloku avots...</translation>
+    </message>
+    <message>
+        <source>%1 and %2</source>
+        <translation>%1 un %2</translation>
     </message>
     <message>
         <source>%1 behind</source>
@@ -273,7 +426,14 @@
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Maciņš ir &lt;b&gt;šifrēts&lt;/b&gt; un pašlaik &lt;b&gt;slēgts&lt;/b&gt;</translation>
     </message>
-    </context>
+</context>
+<context>
+    <name>ClientModel</name>
+    <message>
+        <source>Network Alert</source>
+        <translation>Tīkla brīdinājums</translation>
+    </message>
+</context>
 <context>
     <name>CoinControlDialog</name>
     <message>
@@ -287,6 +447,10 @@
     <message>
         <source>Amount:</source>
         <translation>Daudzums:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Prioritāte:</translation>
     </message>
     <message>
         <source>Fee:</source>
@@ -328,7 +492,123 @@
         <source>Confirmed</source>
         <translation>Apstiprināts</translation>
     </message>
-    </context>
+    <message>
+        <source>Priority</source>
+        <translation>Prioritāte</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopēt adresi</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopēt nosaukumu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Kopēt transakcijas ID</translation>
+    </message>
+    <message>
+        <source>Lock unspent</source>
+        <translation>Aizslēgt neiztērēto</translation>
+    </message>
+    <message>
+        <source>Unlock unspent</source>
+        <translation>Atslēgt neiztērēto</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopēt maksu</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopēt pēc maksas</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopēt baitus</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopēt prioritāti</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopēt atlikumu</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>augstākais</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>augstāks</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>augsts</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>vidēji-augsts</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>vidējs</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>zemi-vidējs</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>zems</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>zemāks</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>zemākais</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 aizslēgts)</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>neviena</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jā</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>nē</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+    <message>
+        <source>change from %1 (%2)</source>
+        <translation>atlikums no %1 (%2)</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(atlikums)</translation>
+    </message>
+</context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -343,7 +623,39 @@
         <source>&amp;Address</source>
         <translation>&amp;Adrese</translation>
     </message>
-    </context>
+    <message>
+        <source>New receiving address</source>
+        <translation>Jauna saņemšanas adrese</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Jauna nosūtīšanas adrese</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Mainīt saņemšanas adresi</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Mainīt nosūtīšanas adresi</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Nupat ierakstītā adrese "%1" jau atrodas adrešu grāmatā.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Dogecoin address.</source>
+        <translation>Ierakstītā adrese "%1" nav derīga Dogecoin adrese.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Nav iespējams atslēgt maciņu.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Neizdevās ģenerēt jaunu atslēgu.</translation>
+    </message>
+</context>
 <context>
     <name>FreespaceChecker</name>
     <message>
@@ -366,6 +678,10 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
         <source>version</source>
         <translation>versija</translation>
     </message>
@@ -374,8 +690,8 @@
         <translation>(%1-biti)</translation>
     </message>
     <message>
-        <source>Command-line options</source>
-        <translation>Komandrindas iespējas</translation>
+        <source>About Dogecoin Core</source>
+        <translation>Par Dogecoin Core</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -385,12 +701,16 @@
         <source>command-line options</source>
         <translation>komandrindas izvēles</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
         <translation>Sveiciens</translation>
+    </message>
+    <message>
+        <source>Welcome to Dogecoin Core.</source>
+        <translation>Sveicināts Dogecoin Core</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -401,19 +721,12 @@
         <translation>Izmantot pielāgotu datu mapi:</translation>
     </message>
     <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
         <source>Error</source>
         <translation>Kļūda</translation>
-    </message>
-    </context>
-<context>
-    <name>ModalOverlay</name>
-    <message>
-        <source>Form</source>
-        <translation>Forma</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Pēdējā bloka laiks</translation>
     </message>
     </context>
 <context>
@@ -434,7 +747,11 @@
         <source>Select payment request file</source>
         <translation>Izvēlies maksājuma pieprasījuma datni</translation>
     </message>
-    </context>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Izvēlies maksājuma pieprasījuma datni lai atvēru</translation>
+    </message>
+</context>
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -458,16 +775,8 @@
         <translation>Skriptu &amp;pārbaudes pavedienu skaits</translation>
     </message>
     <message>
-        <source>Allow incoming connections</source>
-        <translation>Atļaut ienākošos savienojumus</translation>
-    </message>
-    <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>Starpniekservera IP adrese (piem. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimizēt nevis aizvērt aplikāciju, kad logs tiek aizvērts. Kad šī iespēja ir ieslēgta, aplikācija tiks aizvērta, izvēloties Aizvērt izvēlnē.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -499,15 +808,15 @@
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt bitcoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt dogecoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
         <translation>&amp;Tērēt neapstiprinātu atlikumu</translation>
     </message>
     <message>
-        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt Bitcoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the Dogecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt Dogecoin klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -559,7 +868,7 @@
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Vai rādīt Bitcoin kontroles funkcijas vai nē.</translation>
+        <translation>Vai rādīt Dogecoin kontroles funkcijas vai nē.</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -593,8 +902,8 @@
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Bitcoin tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Dogecoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar Dogecoin tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -627,7 +936,35 @@
     </context>
 <context>
     <name>PaymentServer</name>
-    </context>
+    <message>
+        <source>URI handling</source>
+        <translation>URI apstrāde</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Nederīga maksājuma adrese %1</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Maksājumu pieprasījuma kļūda</translation>
+    </message>
+    <message>
+        <source>Cannot start dogecoin: click-to-pay handler</source>
+        <translation>Nevar palaist Dogecoin: nospied-lai-maksātu apstrādātāju</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Atmaksa no %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>Maksājums atzīts</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>Tīkla pieprasījuma kļūda</translation>
+    </message>
+</context>
 <context>
     <name>PeerTableModel</name>
     </context>
@@ -649,19 +986,32 @@
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 un %2</translation>
-    </message>
-    </context>
-<context>
-    <name>QObject::QObject</name>
     </context>
 <context>
     <name>QRImageWidget</name>
-    </context>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Saglabāt Attēlu...</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>&amp;Kopēt Attēlu</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Saglabāt QR kodu</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG Attēls (*.png)</translation>
+    </message>
+</context>
 <context>
     <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>Klienta vārds</translation>
+    </message>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
@@ -681,6 +1031,10 @@
     <message>
         <source>General</source>
         <translation>Vispārējs</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>Izmantotā OpenSSL versija</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -737,6 +1091,10 @@
     <message>
         <source>Out:</source>
         <translation>Iz.:</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Kompilācijas datums</translation>
     </message>
     <message>
         <source>Debug log file</source>
@@ -821,7 +1179,19 @@
         <source>Remove</source>
         <translation>Noņemt</translation>
     </message>
-    </context>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopēt nosaukumu</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopēt ziņojumu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+</context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
@@ -840,19 +1210,83 @@
         <source>&amp;Save Image...</source>
         <translation>&amp;Saglabāt Attēlu...</translation>
     </message>
-    </context>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Pieprasīt maksājumu uz %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Maksājuma informācija</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ziņojums</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Rezultāta URI pārāk garš, mēģiniet saīsināt nosaukumu vai ziņojumu. </translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Kļūda kodējot URI QR kodā.</translation>
+    </message>
+</context>
 <context>
     <name>RecentRequestsTableModel</name>
-    </context>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ziņojums</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(nav ziņojuma)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(nav summas)</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Sūtīt Bitkoinus</translation>
+        <translation>Sūtīt Dogekoinus</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Bitcoin Kontroles Funkcijas</translation>
+        <translation>Dogecoin Kontroles Funkcijas</translation>
     </message>
     <message>
         <source>Inputs...</source>
@@ -879,6 +1313,10 @@
         <translation>Daudzums:</translation>
     </message>
     <message>
+        <source>Priority:</source>
+        <translation>Prioritāte:</translation>
+    </message>
+    <message>
         <source>Fee:</source>
         <translation>Maksa:</translation>
     </message>
@@ -893,10 +1331,6 @@
     <message>
         <source>Custom change address</source>
         <translation>Pielāgota atlikuma adrese</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transakcijas maksa:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -926,7 +1360,83 @@
         <source>S&amp;end</source>
         <translation>&amp;Sūtīt</translation>
     </message>
-    </context>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Apstiprināt bitkoinu sūtīšanu</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 līdz %2</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopēt maksu</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopēt pēc maksas</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopēt baitus</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopēt prioritāti</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopēt atlikumu</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Kopējā Summa %1 (= %2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>vai</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Nosūtāmajai summai jābūt lielākai par 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Daudzums pārsniedz pieejamo.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Kopsumma pārsniedz pieejamo, ja pieskaitīta %1 transakcijas maksa.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Transakcijas izveidošana neizdevās!</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Dogecoin address</source>
+        <translation>Brīdinājums: Nederīga Dogecoin adrese</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez nosaukuma)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Brīdinājums: Nezināma atlikuma adrese</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>pievienots kā transakcijas maksa</translation>
+    </message>
+</context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
@@ -936,6 +1446,10 @@
     <message>
         <source>Pay &amp;To:</source>
         <translation>&amp;Saņēmējs:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Lai pievienotu adresi adrešu grāmatai, tai jādod nosaukums</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
@@ -977,12 +1491,13 @@
         <source>Memo:</source>
         <translation>Memo:</translation>
     </message>
-    </context>
-<context>
-    <name>SendConfirmationDialog</name>
-    </context>
+</context>
 <context>
     <name>ShutdownWindow</name>
+    <message>
+        <source>Dogecoin Core is shutting down...</source>
+        <translation>Dogecoin Core tiek izslēgta...</translation>
+    </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Neizslēdziet datoru kamēr šis logs nepazūd.</translation>
@@ -1027,8 +1542,8 @@
         <translation>Kopēt parakstu uz sistēmas starpliktuvi</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Bitcoin address</source>
-        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Bitcoin adreses īpašnieks.</translation>
+        <source>Sign the message to prove you own this Dogecoin address</source>
+        <translation>Parakstīt ziņojumu lai pierādītu, ka esi šīs Dogecoin adreses īpašnieks.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1054,9 +1569,69 @@
         <source>Reset all verify message fields</source>
         <translation>Atiestatīt visus laukus</translation>
     </message>
-    </context>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Nospied "Parakstīt Ziņojumu" lai ģenerētu parakstu</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Ievadītā adrese ir nederīga.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Lūdzu pārbaudi adresi un mēģini vēlreiz.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Ievadītā adrese neattiecas uz atslēgu.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Maciņa atslēgšana tika atcelta.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privātā atslēga priekš ievadītās adreses nav pieejama.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Neizdevās parakstīt ziņojumu.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Ziņojums parakstīts.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Paraksts nevarēja tikt dekodēts.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Lūdzu pārbaudi parakstu un mēģini vēlreiz.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Paraksts neatbilda ziņojuma apkopojumam.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Ziņojumu neizdevās pārbaudīt.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Ziņojums pārbaudīts.</translation>
+    </message>
+</context>
 <context>
     <name>SplashScreen</name>
+    <message>
+        <source>Dogecoin Core</source>
+        <translation>Dogecoin Core</translation>
+    </message>
+    <message>
+        <source>The Dogecoin Core developers</source>
+        <translation>Dogecoin Core izstrādātāji</translation>
+    </message>
     <message>
         <source>[testnet]</source>
         <translation>[testnets]</translation>
@@ -1071,32 +1646,408 @@
 </context>
 <context>
     <name>TransactionDesc</name>
-    </context>
+    <message>
+        <source>Open until %1</source>
+        <translation>Atvērts līdz %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>pretrunā</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/bezsaistē</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/neapstiprinātas</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 apstiprinājumu</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Avots</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Ģenerēts</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>No</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Uz</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>paša adrese</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>etiķete</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Kredīts</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>nav pieņemts</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debets</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transakcijas maksa</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Neto summa</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Ziņojums</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Komentārs</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transakcijas ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Tirgotājs</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Atkļūdošanas informācija</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transakcija</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Ieejas</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Daudzums</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>patiess</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>nepatiess</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, vēl nav veiksmīgi izziņots</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>nav zināms</translation>
+    </message>
+</context>
 <context>
     <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Transakcijas detaļas</translation>
+    </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Šis panelis parāda transakcijas detaļas</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>TransactionTableModel</name>
-    </context>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tips</translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Atvērts līdz %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Apstiprināts (%1 apstiprinājumu)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Neviens cits mezgls šo bloku nav saņēmis un droši vien netiks akceptēts!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Ģenerēts, taču nav akceptēts</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Bezsaitē</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Neapstiprināts</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Pretrunā</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Saņemts ar</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Saņemts no</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Nosūtīts</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Maksājums sev</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Atrasts</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(nav pieejams)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transakcijas statuss. Turiet peli virs šī lauka, lai redzētu apstiprinājumu skaitu.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Transakcijas saņemšanas datums un laiks.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Transakcijas tips.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Bilancei pievienotais vai atņemtais daudzums.</translation>
+    </message>
+</context>
 <context>
     <name>TransactionView</name>
-    </context>
+    <message>
+        <source>All</source>
+        <translation>Visi</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Šodien</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Šonedēļ</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Šomēnes</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Pēdējais mēnesis</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Šogad</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Diapazons...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Saņemts ar</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Nosūtīts</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Sev</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Atrasts</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Cits</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Ierakstiet meklējamo nosaukumu vai adresi</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Minimālais daudzums</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopēt adresi</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopēt nosaukumu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopēt daudzumu</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Kopēt transakcijas ID</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Mainīt nosaukumu</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Rādīt transakcijas detaļas</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Eksportēt Transakciju Vēsturi</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportēšana Neizdevās</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Eksportēšana Veiksmīga</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Transakciju vēsture tika veiksmīgi saglabāta uz %1.</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Fails ar komatu kā atdalītāju (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Apstiprināts</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datums</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tips</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Nosaukums</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adrese</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Diapazons:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>uz</translation>
+    </message>
+</context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     </context>
 <context>
     <name>WalletFrame</name>
-    </context>
+    <message>
+        <source>No wallet has been loaded.</source>
+        <translation>Neviens maciņš nav ielādēts.</translation>
+    </message>
+</context>
 <context>
     <name>WalletModel</name>
-    </context>
+    <message>
+        <source>Send Coins</source>
+        <translation>Sūtīt Dogekoinus</translation>
+    </message>
+</context>
 <context>
     <name>WalletView</name>
-    </context>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Eksportēt</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Datus no tekošā ieliktņa eksportēt uz failu</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Izveidot maciņa rezerves kopiju</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Maciņa dati (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Rezerves kopēšana neizdevās</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>Notikusi kļūme mēģinot saglabāt maciņa datus uz %1.</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>Maciņa dati tika veiksmīgi saglabāti uz %1.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Dublēšana Veiksmīga</translation>
+    </message>
+</context>
 <context>
     <name>bitcoin-core</name>
     <message>
@@ -1124,16 +2075,28 @@
         <translation>Darbināt fonā kā servisu un pieņemt komandas</translation>
     </message>
     <message>
-        <source>Bitcoin Core</source>
-        <translation>Bitcoin Core</translation>
+        <source>Use the test network</source>
+        <translation>Izmantot testa tīklu</translation>
+    </message>
+    <message>
+        <source>(default: 1)</source>
+        <translation>(noklusējums: 1)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
         <translation>&lt;category&gt; var būt:</translation>
     </message>
     <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Mēģināt atgūt privātās atslēgas no bojāta wallet.dat</translation>
+    </message>
+    <message>
         <source>Block creation options:</source>
         <translation>Bloka izveidošanas iestatījumi:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Savienoties tikai ar norādītajām nodēm.</translation>
     </message>
     <message>
         <source>Connection options:</source>
@@ -1152,6 +2115,10 @@
         <translation>Kļūda: Zema diska vieta!</translation>
     </message>
     <message>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Ja &lt;category&gt; nav norādīta, izvadīt visu atkļūdošanas informāciju.</translation>
+    </message>
+    <message>
         <source>Importing...</source>
         <translation>Importē...</translation>
     </message>
@@ -1168,6 +2135,10 @@
         <translation>Maciņa iespējas:</translation>
     </message>
     <message>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importēt blokus no ārējās blk000??.dat datnes</translation>
+    </message>
+    <message>
         <source>Information</source>
         <translation>Informācija</translation>
     </message>
@@ -1180,12 +2151,28 @@
         <translation>Debug/trace informāciju izvadīt konsolē, nevis debug.log failā</translation>
     </message>
     <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Uzstādiet valodu, piemēram "de_DE" (pēc noklusēšanas: sistēmas lokāle)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Uzsākot, parādīt programmas informācijas logu (pēc noklusēšanas: 1)</translation>
+    </message>
+    <message>
         <source>Signing transaction failed</source>
         <translation>Transakcijas parakstīšana neizdevās</translation>
     </message>
     <message>
+        <source>Start minimized</source>
+        <translation>Sākt minimizētu</translation>
+    </message>
+    <message>
         <source>Transaction amount too small</source>
         <translation>Transakcijas summa ir pārāk maza</translation>
+    </message>
+    <message>
+        <source>Transaction amounts must be positive</source>
+        <translation>Transakcijas summai ir jābūt pozitīvai</translation>
     </message>
     <message>
         <source>Transaction too large</source>
@@ -1200,12 +2187,36 @@
         <translation>Brīdinājums</translation>
     </message>
     <message>
+        <source>on startup</source>
+        <translation>startēšanas laikā</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat ir bojāts, glābšana neizdevās</translation>
+    </message>
+    <message>
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC savienojumu parole</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Izpildīt komandu, kad labāk atbilstošais bloks izmainās (%s cmd aizvieto ar bloka hešu)</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Atjaunot maciņa formātu uz jaunāko</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Atkārtoti skanēt bloku virkni, meklējot trūkstošās maciņa transakcijas</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>JSON-RPC savienojumiem izmantot OpenSSL (https)</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Šis palīdzības paziņojums</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
@@ -1216,12 +2227,32 @@
         <translation>Ielādē adreses...</translation>
     </message>
     <message>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Nevar ielādēt wallet.dat: maciņš bojāts</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Kļūda ielādējot wallet.dat</translation>
+    </message>
+    <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Nederīga -proxy adrese: '%s'</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>-onlynet komandā norādīts nepazīstams tīkls: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nevar uzmeklēt -bind adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nevar atrisināt -externalip adresi: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Nederīgs daudzums priekš -paytxfree=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
